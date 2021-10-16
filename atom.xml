@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>XYZ安全团队</title>
+  <title>XYZ</title>
   
-  <subtitle>立于行业尾部的爱好者</subtitle>
+  <subtitle>XYZ</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xyzsec.cn/"/>
-  <updated>2021-10-16T15:04:14.746Z</updated>
+  <updated>2021-10-16T16:13:31.667Z</updated>
   <id>https://xyzsec.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://xyzsec.cn/2021/10/16/zi-chan-xin-xi-shou-ji-1/"/>
     <id>https://xyzsec.cn/2021/10/16/zi-chan-xin-xi-shou-ji-1/</id>
     <published>2021-10-16T14:35:13.743Z</published>
-    <updated>2021-10-16T15:04:14.746Z</updated>
+    <updated>2021-10-16T16:13:31.667Z</updated>
     
     <summary type="html">
     
@@ -29,88 +29,14 @@
       
         
         
-          &lt;p&gt;&lt;a name=&quot;3hIcr&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;流程图&quot;&gt;&lt;a href=&quot;#流程图&quot; class=&quot;headerlink&quot; title=&quot;流程图&quot;&gt;&lt;/a&gt;流程图&lt;/h1&gt;&lt;p&gt;&lt;img
+          &lt;p&gt;&lt;a name=&quot;3hIcr&quot;&gt;资产信息收集&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;流程图&quot;&gt;&lt;a href=&quot;#流程图&quot; class=&quot;headerlink&quot; title=&quot;流程图&quot;&gt;&lt;/a&gt;流程图&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;1.png&quot; alt&gt;&lt;/p&gt;
+&lt;h1
         
       
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://xyzsec.cn/2021/09/06/hello-world/"/>
-    <id>https://xyzsec.cn/2021/09/06/hello-world/</id>
-    <published>2021-09-06T12:28:44.939Z</published>
-    <updated>2021-09-06T12:28:44.939Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>article title</title>
-    <link href="https://xyzsec.cn/2021/09/06/article-title/"/>
-    <id>https://xyzsec.cn/2021/09/06/article-title/</id>
-    <published>2021-09-05T16:07:17.000Z</published>
-    <updated>2021-10-16T15:25:42.864Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;qawdweqaeqwaewqewq&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../mg12-300x138.png&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>5W2H | 关于写博客的七点反思</title>
-    <link href="https://xyzsec.cn/2020/01/14/jian-jie/"/>
-    <id>https://xyzsec.cn/2020/01/14/jian-jie/</id>
-    <published>2020-01-14T07:27:31.000Z</published>
-    <updated>2021-07-29T12:54:42.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;关注公众号【算法码上来】，每日算法干货马上就来！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/medias/contact.jpg&quot; alt&gt;&lt;/p&gt;
-&lt;h2 id=&quot;When？什么时候开始写的？&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="随笔" scheme="https://xyzsec.cn/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="博客" scheme="https://xyzsec.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
