@@ -4,18 +4,15 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="信息收集, UOHS IA NSME NS XYZ安全团队 XYZ XYZSecurity team 网络安全 信息安全">
+    <meta name="keywords" content="内网渗透基础及环境搭建, UOHS IA NSME NS XYZ安全团队 XYZ XYZSecurity team 网络安全 信息安全">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="yCy2azpds5XSuGZvis6OuA-XIGF5GuGpYRAaGfD6o48">
     <meta name="360-site-verification" content="b7c11a830ef90fd1464ad6206bb7b6e7">
-    <meta name="description" content="资产信息收集
-流程图
-简介：
-分类
-什么是资产
-重要性
-域名备案信息通过查询备案信息，可以获取该企业的一些基本信息：网站地址，网站域名等
-工信部网站备案查询https://beian.miit.gov.cn/#/Integrated/ind">
+    <meta name="description" content="
+
+一:内网渗透基础
+内网也是指计算机网络中根据地理范围划分中的局域网(Local Area Network)，即内网等同于局域网  。
+内网渗透又叫做后渗透，区别于前渗透的WEB渗透，内网渗透是指从获取WEB服务器的shell之后到拿下内">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -23,7 +20,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>信息收集 | XYZ</title>
+    <title>内网渗透基础及环境搭建 | XYZ</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -273,13 +270,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        信息收集
+                        内网渗透基础及环境搭建
                     </div>
                 </div>
             </div>
@@ -390,8 +387,8 @@
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/信息收集/" target="_blank">
-                            <span class="chip bg-color">信息收集</span>
+                        <a href="/tags/信息收集、内网、基础知识、环境搭建/" target="_blank">
+                            <span class="chip bg-color">信息收集、内网、基础知识、环境搭建</span>
                         </a>
                         
                     </div>
@@ -402,8 +399,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                        <a href="/categories/信息获取/" class="post-category" target="_blank">
-                            信息获取
+                        <a href="/categories/信息收集、内网/" class="post-category" target="_blank">
+                            信息收集、内网
                         </a>
                         
                     </div>
@@ -414,7 +411,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-08-10
+                    2021-09-21
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -428,14 +425,14 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.7k
+                    3.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    7 分
+                    11 分
                 </div>
                 
                 
@@ -451,165 +448,368 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><a name="3hIcr">资产信息收集</a></p>
-<h1 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h1><p><img src="1.png" alt></p>
-<h1 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h1><p><img src="2.png" alt></p>
-<h2 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h2><p><img src="3.png" alt></p>
-<h2 id="什么是资产"><a href="#什么是资产" class="headerlink" title="什么是资产"></a>什么是资产</h2><p><img src="4.png" alt></p>
-<h2 id="重要性"><a href="#重要性" class="headerlink" title="重要性"></a>重要性</h2><p><img src="5.png" alt></p>
-<h1 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h1><h2 id="备案信息"><a href="#备案信息" class="headerlink" title="备案信息"></a>备案信息</h2><p>通过查询备案信息，可以获取该企业的一些基本信息：网站地址，网站域名等</p>
-<h2 id="工信部网站备案查询"><a href="#工信部网站备案查询" class="headerlink" title="工信部网站备案查询"></a>工信部网站备案查询</h2><p><a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" rel="noopener">https://beian.miit.gov.cn/#/Integrated/index</a> </p>
-<p><img src="6.png" alt></p>
-<p><img src="7.png" alt></p>
-<h2 id="天眼查网站备案查询"><a href="#天眼查网站备案查询" class="headerlink" title="天眼查网站备案查询"></a>天眼查网站备案查询</h2><p>网站：<a href="https://www.tianyancha.com/" target="_blank" rel="noopener">https://www.tianyancha.com/</a></p>
-<h2 id="国家企业信用信息公示系统"><a href="#国家企业信用信息公示系统" class="headerlink" title="国家企业信用信息公示系统"></a>国家企业信用信息公示系统</h2><p>网站：<a href="http://www.gsxt.gov.cn/index.html" target="_blank" rel="noopener">http://www.gsxt.gov.cn/index.html</a>  </p>
-<p><img src="8.png" alt></p>
-<h2 id="域名助手备案信息查询"><a href="#域名助手备案信息查询" class="headerlink" title="域名助手备案信息查询"></a>域名助手备案信息查询</h2><p>地址：<a href="http://cha.fute.com/index" target="_blank" rel="noopener">http://cha.fute.com/index</a></p>
-<p><img src="9.png" alt></p>
-<h2 id="whois"><a href="#whois" class="headerlink" title="whois"></a>whois</h2><p>国外的who.is：<a href="https://who.is/" target="_blank" rel="noopener">https://who.is/</a> <br>站长之家：<a href="http://whois.chinaz.com/" target="_blank" rel="noopener">http://whois.chinaz.com/</a><br>爱站：<a href="https://whois.aizhan.com/" target="_blank" rel="noopener">https://whois.aizhan.com/</a> <br>微步：<a href="https://x.threatbook.cn/" target="_blank" rel="noopener">https://x.threatbook.cn/</a> <br>腾讯云：<a href="https://whois.cloud.tencent.com/" target="_blank" rel="noopener">https://whois.cloud.tencent.com/</a><br>美橙互联：<a href="https://whois.cndns.com/" target="_blank" rel="noopener">https://whois.cndns.com/</a><br>爱名网：<a href="https://www.22.cn/domain/" target="_blank" rel="noopener">https://www.22.cn/domain/</a><br>易名网：<a href="https://whois.ename.net/" target="_blank" rel="noopener">https://whois.ename.net/</a><br>中国万网：<a href="https://whois.aliyun.com/" target="_blank" rel="noopener">https://whois.aliyun.com/</a><br>西部数码：<a href="https://whois.west.cn/" target="_blank" rel="noopener">https://whois.west.cn/</a><br>新网域名：<a href="http://whois.xinnet.com/domain/whois/index.jsp" target="_blank" rel="noopener">http://whois.xinnet.com/domain/whois/index.jsp</a><br>纳网域名：<a href="http://whois.nawang.cn/" target="_blank" rel="noopener">http://whois.nawang.cn/</a><br>中资源域名：<a href="https://www.zzy.cn/domain/whois.html" target="_blank" rel="noopener">https://www.zzy.cn/domain/whois.html</a><br>三五互联域名：<a href="https://cp.35.com/chinese/whois.php" target="_blank" rel="noopener">https://cp.35.com/chinese/whois.php</a><br>新网互联域名：<a href="http://www.dns.com.cn/show/domain/whois/index.do" target="_blank" rel="noopener">http://www.dns.com.cn/show/domain/whois/index.do</a><br><br><br>通过whois查询我们可以查询到注册商，注册人，邮件，DNS解析服务器，注册人电话等信息</p>
-<p><img src="10.png" alt></p>
-<p>同时也可以进行whois反查，查找更多相关信息</p>
-<h1 id="子域名查询"><a href="#子域名查询" class="headerlink" title="子域名查询"></a>子域名查询</h1><h2 id="介绍："><a href="#介绍：" class="headerlink" title="介绍："></a>介绍：</h2><p><img src="11-1634447487649.png" alt></p>
-<h2 id="工具枚举-amp-爬虫"><a href="#工具枚举-amp-爬虫" class="headerlink" title="工具枚举&amp;爬虫"></a>工具枚举&amp;爬虫</h2><p><img src="12-1634447535125.png" alt></p>
-<h2 id="layer子域名挖掘机"><a href="#layer子域名挖掘机" class="headerlink" title="layer子域名挖掘机"></a>layer子域名挖掘机</h2><p>下载地址：<a href="https://github.com/euphrat1ca/LayerDomainFinder" target="_blank" rel="noopener">https://github.com/euphrat1ca/LayerDomainFinder</a><br><a name="40LsW"></a></p>
-<h2 id="oneforall"><a href="#oneforall" class="headerlink" title="oneforall"></a>oneforall</h2><p>下载地址：<a href="https://github.com/shmilylty/OneForAll" target="_blank" rel="noopener">https://github.com/shmilylty/OneForAll</a><br></p>
-<p><img src="13.png" alt></p>
-<h2 id="subDomainBrute"><a href="#subDomainBrute" class="headerlink" title="subDomainBrute"></a>subDomainBrute</h2><p>下载地址：<a href="https://github.com/lijiejie/subDomainsBrute" target="_blank" rel="noopener">https://github.com/lijiejie/subDomainsBrute</a><br></p>
-<p><img src="14.png" alt></p>
-<p><img src="15.png" alt></p>
-<h1 id="网站查询-amp-搜索引擎查询"><a href="#网站查询-amp-搜索引擎查询" class="headerlink" title="网站查询&amp;搜索引擎查询"></a>网站查询&amp;搜索引擎查询</h1><p><a name="lvOWW"></a></p>
-<h2 id="网站查询"><a href="#网站查询" class="headerlink" title="网站查询"></a>网站查询</h2><p>DNSDB：<a href="https://dnsdb.io/zh-cn/" target="_blank" rel="noopener">https://dnsdb.io/zh-cn/</a><br>在线子域名查询：<a href="https://phpinfo.me/domain/" target="_blank" rel="noopener">https://phpinfo.me/domain/</a><br>ip或域名查询：<a href="https://site.ip138.com/" target="_blank" rel="noopener">https://site.ip138.com/</a><br>子域名扫描：<a href="https://www.t1h2ua.cn/tools/" target="_blank" rel="noopener">https://www.t1h2ua.cn/tools/</a><br>Aleax网站：<a href="https://alexa.chinaz.com/" target="_blank" rel="noopener">https://alexa.chinaz.com/</a><br>securitytrails：<a href="https://securitytrails.com/list/apex_domain/www.baidu.com" target="_blank" rel="noopener">https://securitytrails.com/list/apex_domain/www.baidu.com</a><br>dns侦测：<a href="https://dnsdumpster.com/" target="_blank" rel="noopener">https://dnsdumpster.com/</a><br><a name="hEFc6"></a></p>
-<h2 id="搜索引擎查询"><a href="#搜索引擎查询" class="headerlink" title="搜索引擎查询"></a>搜索引擎查询</h2><p>原理：通过搜索引擎获取已经爬取的子域名<br>语法：site:360.cn<br>使用”-“减号来去除已知子域名：site:target.com-www-blog<br>相关工具：theHarvester<br><a name="yB62f"></a></p>
-<h3 id="theHarvester"><a href="#theHarvester" class="headerlink" title="theHarvester"></a>theHarvester</h3><p><img src="16.png" alt></p>
-<p>空间引擎<br><br><img src="17.png" alt></p>
-<h2 id="HTTPS证书透明度"><a href="#HTTPS证书透明度" class="headerlink" title="HTTPS证书透明度"></a>HTTPS证书透明度</h2><p>谷歌Chrome要求2017年所有SSL证书都要支持证书透明，所以可以根据CT log查询支持HTTPS网站的子域名<br>crtsh：<a href="https://crt.sh/" target="_blank" rel="noopener">https://crt.sh/</a><br><br><br>facebook：<a href="https://developers.facebook.com/tools/ct" target="_blank" rel="noopener">https://developers.facebook.com/tools/ct</a><br><br><br>entrust：<a href="https://www.entrust.com/ct-search/" target="_blank" rel="noopener">https://www.entrust.com/ct-search/</a><br><br><br>certspotter：<a href="https://sslmate.com/certspotter/api/" target="_blank" rel="noopener">https://sslmate.com/certspotter/api/</a><br><br><br>spyse：<a href="https://spyse.com/search/certificate" target="_blank" rel="noopener">https://spyse.com/search/certificate</a><br><br><br>censys：<a href="https://censys.io/certificates" target="_blank" rel="noopener">https://censys.io/certificates</a><br><br><br>google： <a href="https://google.com/transparencyreport/https/ct/" target="_blank" rel="noopener">https://google.com/transparencyreport/https/ct/</a><br></p>
-<p><a name="dwwJ1"></a></p>
-<h2 id="用DNS数据搜索子域"><a href="#用DNS数据搜索子域" class="headerlink" title="用DNS数据搜索子域"></a>用DNS数据搜索子域</h2><p>原理：利用DNS记录公开数据收集<br>住：将需要（domain）换成需要查询的域名，标红的效果较好<br>ip138：<a href="https://site.ip138.com/%7Bdomain%7D/domain.htm" target="_blank" rel="noopener">https://site.ip138.com/{domain}/domain.htm</a><br>百度云观测：<a href="http://ce.baidu.com/index/getRelatedSites?site_address=%7Bdomain%7D" target="_blank" rel="noopener">http://ce.baidu.com/index/getRelatedSites?site_address={domain}</a><br>hackertarget：<a href="https://hackertarget.com/find-dns-host-records/" target="_blank" rel="noopener">https://hackertarget.com/find-dns-host-records/</a><br>riddler：<a href="https://riddler.io/search?q=pld:%7Bdomain%7D" target="_blank" rel="noopener">https://riddler.io/search?q=pld:{domain}</a><br>bufferover：<a href="https://dns.bufferover.run/dns?q=%7Bdomain%7D" target="_blank" rel="noopener">https://dns.bufferover.run/dns?q={domain}</a><br>dnsdb：<a href="https://dnsdb.io/zh-cn/search?q=%7Bdomain%7D" target="_blank" rel="noopener">https://dnsdb.io/zh-cn/search?q={domain}</a><br>ipv4info：<a href="http://ipv4info.com/" target="_blank" rel="noopener">http://ipv4info.com/</a><br>robtex：<a href="https://www.robtex.com/dns-lookup/" target="_blank" rel="noopener">https://www.robtex.com/dns-lookup/</a><br>chinaz：<a href="https://alexa.chinaz.com/" target="_blank" rel="noopener">https://alexa.chinaz.com/</a><br>netcraft：<a href="https://searchdns.netcraft.com/" target="_blank" rel="noopener">https://searchdns.netcraft.com/</a><br>dnsdumpster：<a href="https://dnsdumpster.com/" target="_blank" rel="noopener">https://dnsdumpster.com/</a><br>sitedossier：<a href="http://www.sitedossier.com/" target="_blank" rel="noopener">http://www.sitedossier.com/</a><br>findsubdomains：<a href="https://findsubdomains.com/" target="_blank" rel="noopener">https://findsubdomains.com/</a><br><a name="FVgwK"></a></p>
-<h2 id="利用威胁情报平台数据收集子域"><a href="#利用威胁情报平台数据收集子域" class="headerlink" title="利用威胁情报平台数据收集子域"></a>利用威胁情报平台数据收集子域</h2><p>注：需注册，注册后免费查询<br>AlienVault：<a href="https://otx.alienvault.com/" target="_blank" rel="noopener">https://otx.alienvault.com/</a><br><br><br>RiskIQ 社区版：<a href="https://community.riskiq.com/" target="_blank" rel="noopener">https://community.riskiq.com/</a><br><br><br>微步在线：<a href="https://x.threatbook.cn/" target="_blank" rel="noopener">https://x.threatbook.cn/</a><br><br><br>ThreatMiner.org：<a href="https://www.threatminer.org/domain.php?q=%7Bdomain%7D" target="_blank" rel="noopener">https://www.threatminer.org/domain.php?q={domain}</a><br><br><br>VT：<a href="https://www.virustotal.com/gui/domain/%7Bdomain%7D/relations" target="_blank" rel="noopener">https://www.virustotal.com/gui/domain/{domain}/relations</a><br><br><br>Pentest-Tools.com：<a href="https://pentest-tools.com/information-gathering/find-subdomains-of-domain#" target="_blank" rel="noopener">https://pentest-tools.com/information-gathering/find-subdomains-of-domain#</a><br></p>
-<p><a name="wJIzc"></a></p>
-<h2 id="隐藏域名hosts碰撞"><a href="#隐藏域名hosts碰撞" class="headerlink" title="隐藏域名hosts碰撞"></a>隐藏域名hosts碰撞</h2><p><br>隐藏资产探则- hosts碰撞<br>很多时候访问目标资产IP响应多为: 401、 403、 404、 500, 但是用域名请求却能返回正常的业务系统(禁止IP直接访问)，因为这大多数都是需要绑定host才能正常请求访问的(目前互联网公司基本的做法) (域名删除 了A记录，但是反代的配置未更新)，那么我们就可以通过收集到的目标的域名和目标资产的IP段组合起来，以IP段+域名的形式进行捆绑碰撞，就能发现很多有意思的东西;<br><br><br>脚本工具<br>地址：<a href="https://github.com/fofapro/Hosts_scan" target="_blank" rel="noopener">https://github.com/fofapro/Hosts_scan</a> <br>原理：在发生http请求的时候，对域名和IP列表进行配，然后遍历发送请求（就相当于修改了本地的hosts文件一样），并把相应的title和响应包大小拿回来做对比，即可快速发现一些隐蔽的资产<br>使用：进行hosts碰撞需要目标的域名和目标的相关IP作为字典；<br>相关IP来源有：<br>a：目标域名历史解析IP<br><a href="https://site.ip138.com/" target="_blank" rel="noopener">https://site.ip138.com/</a><br><a href="https://ipchaxun.com/" target="_blank" rel="noopener">https://ipchaxun.com/</a><br>b：页面js源码爬取IP<br>oneforall貌似实现了长亭的rad以burp为代理爬，保存返回包，在正则提取Ip<br>参考：<a href="https://mp.weixin.qq.com/s/fuASZODw1rLvgT7GySMC8Q" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/fuASZODw1rLvgT7GySMC8Q</a><br><a name="QLlzb"></a></p>
-<p>##<br><a name="LHDuD"></a></p>
-<h1 id="旁注-C段"><a href="#旁注-C段" class="headerlink" title="旁注/C段"></a>旁注/C段</h1><p><a name="lEcFV"></a></p>
-<h2 id="旁注"><a href="#旁注" class="headerlink" title="旁注"></a>旁注</h2><p><img src="18.png" alt></p>
-<h2 id="IP逆向查询"><a href="#IP逆向查询" class="headerlink" title="IP逆向查询"></a>IP逆向查询</h2><p>yougetsignal：<a href="https://www.yougetsignal.com/tools/web-sites-on-web-server/" target="_blank" rel="noopener">https://www.yougetsignal.com/tools/web-sites-on-web-server/</a><br>站长工具：<a href="http://s.tool.chinaz.com/same/" target="_blank" rel="noopener">http://s.tool.chinaz.com/same/</a><br>爱站：<a href="https://dns.aizhan.com/" target="_blank" rel="noopener">https://dns.aizhan.com/</a><br>同ip网站查询：<a href="http://dns.bugscaner.com/" target="_blank" rel="noopener">http://dns.bugscaner.com/</a><br>webscan：<a href="https://www.webscan.cc/" target="_blank" rel="noopener">https://www.webscan.cc/</a><br><a name="Mw419"></a></p>
-<h2 id="C段"><a href="#C段" class="headerlink" title="C段"></a>C段</h2><p><img src="19.png" alt></p>
-<h2 id="查询C段方法："><a href="#查询C段方法：" class="headerlink" title="查询C段方法："></a>查询C段方法：</h2><p><img src="20.png" alt></p>
-<h2 id="旁注查询小脚本："><a href="#旁注查询小脚本：" class="headerlink" title="旁注查询小脚本："></a>旁注查询小脚本：</h2><pre class="line-numbers language-python"><code class="language-python"><span class="token comment" spellcheck="true">#coding:utf-8</span>
-<span class="token keyword">import</span> requests
-<span class="token keyword">import</span> json
-
-<span class="token keyword">def</span> <span class="token function">get_c</span><span class="token punctuation">(</span>ip<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"正在收集{}"</span><span class="token punctuation">.</span>format<span class="token punctuation">(</span>ip<span class="token punctuation">)</span><span class="token punctuation">)</span>
-    url<span class="token operator">=</span><span class="token string">"http://api.webscan.cc/?action=query&amp;ip={}"</span><span class="token punctuation">.</span>format<span class="token punctuation">(</span>ip<span class="token punctuation">)</span>
-    req<span class="token operator">=</span>requests<span class="token punctuation">.</span>get<span class="token punctuation">(</span>url<span class="token operator">=</span>url<span class="token punctuation">)</span>
-    html<span class="token operator">=</span>req<span class="token punctuation">.</span>text
-    data<span class="token operator">=</span>req<span class="token punctuation">.</span>json<span class="token punctuation">(</span><span class="token punctuation">)</span>
-    <span class="token keyword">if</span> <span class="token string">'null'</span> <span class="token operator">not</span> <span class="token keyword">in</span> html<span class="token punctuation">:</span>
-        <span class="token keyword">with</span> open<span class="token punctuation">(</span><span class="token string">"resulit.txt"</span><span class="token punctuation">,</span> <span class="token string">'a'</span><span class="token punctuation">,</span> encoding<span class="token operator">=</span><span class="token string">'utf-8'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> f<span class="token punctuation">:</span>
-            f<span class="token punctuation">.</span>write<span class="token punctuation">(</span>ip <span class="token operator">+</span> <span class="token string">'\n'</span><span class="token punctuation">)</span>
-            f<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
-        <span class="token keyword">for</span> i <span class="token keyword">in</span> data<span class="token punctuation">:</span>
-            <span class="token keyword">with</span> open<span class="token punctuation">(</span><span class="token string">"resulit.txt"</span><span class="token punctuation">,</span> <span class="token string">'a'</span><span class="token punctuation">,</span>encoding<span class="token operator">=</span><span class="token string">'utf-8'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> f<span class="token punctuation">:</span>
-                f<span class="token punctuation">.</span>write<span class="token punctuation">(</span><span class="token string">"\t{} {}\n"</span><span class="token punctuation">.</span>format<span class="token punctuation">(</span>i<span class="token punctuation">[</span><span class="token string">'domain'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>i<span class="token punctuation">[</span><span class="token string">'title'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-                <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"     [+] {} {}[+]"</span><span class="token punctuation">.</span>format<span class="token punctuation">(</span>i<span class="token punctuation">[</span><span class="token string">'domain'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>i<span class="token punctuation">[</span><span class="token string">'title'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-                f<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-<span class="token keyword">def</span> <span class="token function">get_ips</span><span class="token punctuation">(</span>ip<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    iplist<span class="token operator">=</span><span class="token punctuation">[</span><span class="token punctuation">]</span>
-    ips_str <span class="token operator">=</span> ip<span class="token punctuation">[</span><span class="token punctuation">:</span>ip<span class="token punctuation">.</span>rfind<span class="token punctuation">(</span><span class="token string">'.'</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
-    <span class="token keyword">for</span> ips <span class="token keyword">in</span> range<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">256</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-        ipadd<span class="token operator">=</span>ips_str <span class="token operator">+</span> <span class="token string">'.'</span> <span class="token operator">+</span> str<span class="token punctuation">(</span>ips<span class="token punctuation">)</span>
-        iplist<span class="token punctuation">.</span>append<span class="token punctuation">(</span>ipadd<span class="token punctuation">)</span>
-    <span class="token keyword">return</span> iplist
-
-
-ip<span class="token operator">=</span>input<span class="token punctuation">(</span><span class="token string">"请你输入要查询的ip:"</span><span class="token punctuation">)</span>
-
-ips<span class="token operator">=</span>get_ips<span class="token punctuation">(</span>ip<span class="token punctuation">)</span>
-<span class="token keyword">for</span> p <span class="token keyword">in</span> ips<span class="token punctuation">:</span>
-    get_c<span class="token punctuation">(</span>p<span class="token punctuation">)</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><a name="lLpk8"></a></p>
-<h2 id="Ip反查域名"><a href="#Ip反查域名" class="headerlink" title="Ip反查域名"></a>Ip反查域名</h2><p>原理：通过ip反查该ip绑定过的域名<br>ip-adress：<a href="https://www.ip-adress.com/reverse-ip-lookup" target="_blank" rel="noopener">https://www.ip-adress.com/reverse-ip-lookup</a><br>去查网：<a href="http://www.7c.com/" target="_blank" rel="noopener">http://www.7c.com/</a><br>IPIP：<a href="https://tools.ipip.net/ipdomain.php" target="_blank" rel="noopener">https://tools.ipip.net/ipdomain.php</a><br>Dynu：<a href="https://www.dynu.com/zh-CN/NetworkTools/ReverseLookup" target="_blank" rel="noopener">https://www.dynu.com/zh-CN/NetworkTools/ReverseLookup</a><br>yougetsignal：<a href="https://www.yougetsignal.com/tools/web-sites-on-web-server/" target="_blank" rel="noopener">https://www.yougetsignal.com/tools/web-sites-on-web-server/</a><br><a name="SIeuA"></a></p>
-<h2 id="查找厂商IP端"><a href="#查找厂商IP端" class="headerlink" title="查找厂商IP端"></a>查找厂商IP端</h2><p><a href="https://ipwhois.cnnic.net/index.jsp" target="_blank" rel="noopener">https://ipwhois.cnnic.net/index.jsp</a><br></p>
-<p><a name="AUsnl"></a></p>
-<h1 id="源码CMS"><a href="#源码CMS" class="headerlink" title="源码CMS"></a>源码CMS</h1><p><a name="qB1Kk"></a></p>
-<h2 id="github监控"><a href="#github监控" class="headerlink" title="github监控"></a>github监控</h2><p><a name="zAILp"></a></p>
-<h3 id="exp监控"><a href="#exp监控" class="headerlink" title="exp监控"></a>exp监控</h3><p>工具地址：<a href="https://github.com/yhy0/github-cve-monitor" target="_blank" rel="noopener">https://github.com/yhy0/github-cve-monitor</a><br></p>
-<p><img src="21.png" alt></p>
-<p>工具地址：<a href="https://github.com/JustYoomoon/CVEAP" target="_blank" rel="noopener">https://github.com/JustYoomoon/CVEAP</a><a name="DOj9B"></a></p>
-<h2 id="引擎搜索"><a href="#引擎搜索" class="headerlink" title="引擎搜索"></a>引擎搜索</h2><p><a name="5Cefm"></a></p>
-<h3 id="白引擎"><a href="#白引擎" class="headerlink" title="白引擎"></a>白引擎</h3><p><img src="22.png" alt></p>
-<h3 id="google-hack语法"><a href="#google-hack语法" class="headerlink" title="google hack语法"></a>google hack语法</h3><p><img src="23.png" alt><br><a name="KdH68"></a></p>
-<h3 id="黑暗引擎"><a href="#黑暗引擎" class="headerlink" title="黑暗引擎"></a>黑暗引擎</h3><p>：：：：：：：：<br></p>
-<p><a name="3u7ax"></a></p>
-<h2 id="CMS识别"><a href="#CMS识别" class="headerlink" title="CMS识别"></a>CMS识别</h2><p><img src="24.png" alt><br><a name="H2X41"></a></p>
-<h3 id="常见的CMS有："><a href="#常见的CMS有：" class="headerlink" title="常见的CMS有："></a>常见的CMS有：</h3><p><img src="25.png" alt><br><a name="EfLFp"></a></p>
-<h3 id="开源CMS在线识别"><a href="#开源CMS在线识别" class="headerlink" title="开源CMS在线识别"></a>开源CMS在线识别</h3><p>国外识别平台：<a href="https://whatcms.org/" target="_blank" rel="noopener">https://whatcms.org/</a><br><br><br>国内识别平台：<br>    bugscaner：<a href="http://whatweb.bugscaner.com/" target="_blank" rel="noopener">http://whatweb.bugscaner.com/</a><br><br><br>    whatweb：<a href="https://www.whatweb.net/" target="_blank" rel="noopener">https://www.whatweb.net/</a><br>    <br>    云悉：<a href="https://www.yunsee.cn/" target="_blank" rel="noopener">https://www.yunsee.cn/</a><br>    <br>    潮汐：<a href="https://www.yunsee.cn/" target="_blank" rel="noopener">https://www.yunsee.cn/</a><br>    <br>    TSscan:<a href="https://scan.dyboy.cn/web/" target="_blank" rel="noopener">https://scan.dyboy.cn/web/</a><br>    <br>github直接找：<br>    <a href="https://github.com/search?q=cms" target="_blank" rel="noopener">https://github.com/search?q=cms</a>识别<br></p>
-<p><a name="TdgE0"></a></p>
-<h3 id="CMS识别工具"><a href="#CMS识别工具" class="headerlink" title="CMS识别工具"></a>CMS识别工具</h3><p><a name="cANPL"></a></p>
-<h4 id="CMSmap"><a href="#CMSmap" class="headerlink" title="CMSmap"></a>CMSmap</h4><p>地址：<a href="https://github.com/dionach/CMSmap" target="_blank" rel="noopener">https://github.com/dionach/CMSmap</a><br><a name="fFbAB"></a></p>
-<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>github克隆下来：<br></p>
-<p><img src="26.png" alt></p>
-<p><a name="OafU9"></a></p>
-<h4 id="使用："><a href="#使用：" class="headerlink" title="使用："></a>使用：</h4><p><img src="27.png" alt><br><a name="dxcmH"></a></p>
-<h4 id="EHole"><a href="#EHole" class="headerlink" title="EHole"></a>EHole</h4><p>地址：<a href="https://github.com/EdgeSecurityTeam/EHole" target="_blank" rel="noopener">https://github.com/EdgeSecurityTeam/EHole</a><br>安装：哪个系统用下载哪个<br></p>
-<p><img src="29.png" alt></p>
-<p><a name="iHuIv"></a></p>
-<h4 id="CMSeek"><a href="#CMSeek" class="headerlink" title="CMSeek"></a>CMSeek</h4><p>地址：<a href="https://github.com/Tuhinshubhra/CMseek" target="_blank" rel="noopener">https://github.com/Tuhinshubhra/CMseek</a><br>安装：</p>
-<p><img src="31.png" alt></p>
-<br>
-
-<p><img src="32.png" alt></p>
-<p><a name="JaIya"></a></p>
-<h4 id="whatcms"><a href="#whatcms" class="headerlink" title="whatcms"></a>whatcms</h4><p>kali自带<br></p>
-<p><img src="33.png" alt></p>
-<p><a name="e6yp9"></a></p>
-<h3 id="chrome插件"><a href="#chrome插件" class="headerlink" title="chrome插件"></a>chrome插件</h3><p><img src="34.png" alt><br><a name="Uw1WP"></a></p>
-<h3 id="人工识别"><a href="#人工识别" class="headerlink" title="人工识别"></a>人工识别</h3><p><img src="35.png" alt><br><a name="PyOfU"></a></p>
-<h4 id="开发语言："><a href="#开发语言：" class="headerlink" title="开发语言："></a>开发语言：</h4><p><img src="36.png" alt><br><a name="iRPVH"></a></p>
-<h4 id="开发框架："><a href="#开发框架：" class="headerlink" title="开发框架："></a>开发框架：</h4><p><img src="37.png" alt><br><a name="t4hku"></a></p>
-<h4 id="第三方组件："><a href="#第三方组件：" class="headerlink" title="第三方组件："></a>第三方组件：</h4><p><img src="38.png" alt><br><a name="4LYMj"></a></p>
-<h4 id="CMS程序："><a href="#CMS程序：" class="headerlink" title="CMS程序："></a>CMS程序：</h4><p><img src="39.png" alt><br><a name="9IQk1"></a></p>
-<h4 id="数据库："><a href="#数据库：" class="headerlink" title="数据库："></a>数据库：</h4><p><img src="40.png" alt><br><a name="A9Tep"></a></p>
-<h2 id="源码泄露安全"><a href="#源码泄露安全" class="headerlink" title="源码泄露安全"></a>源码泄露安全</h2><p><img src="41.png" alt><br><a name="V8Bq6"></a></p>
-<h3 id="git源码泄露"><a href="#git源码泄露" class="headerlink" title="git源码泄露"></a>git源码泄露</h3><p><img src="42.png" alt><br>Githack<br>地址：<a href="https://github.com/lijiejie/GitHack" target="_blank" rel="noopener">https://github.com/lijiejie/GitHack</a><br>用法：<br></p>
-<p><img src="43.png" alt><br></p>
-<p><img src="44.png" alt><a name="K32iW"></a></p>
-<h3 id="SVN源码泄露"><a href="#SVN源码泄露" class="headerlink" title="SVN源码泄露"></a>SVN源码泄露</h3><p><img src="45.png" alt></p>
-<p>地址：<a href="https://github.com/admintony/svnExploit" target="_blank" rel="noopener">https://github.com/admintony/svnExploit</a><br>安装：<br></p>
-<p><img src="46.png" alt><br>使用：<br></p>
-<p><img src="47.png" alt><br></p>
-<p><img src="%E7%AE%80%E4%BB%8B/65.png" alt="65"></p>
-<p><a name="2fcBD"></a></p>
-<h3 id="hg源码泄露"><a href="#hg源码泄露" class="headerlink" title="hg源码泄露"></a>hg源码泄露</h3><p><img src="49-1634448553982.png" alt><br>地址：<a href="https://github.com/kost/dvcs-ripper" target="_blank" rel="noopener">https://github.com/kost/dvcs-ripper</a> <br>使用：<br></p>
-<p><img src="50-1634448613221.png" alt></p>
-<p><a name="tEamJ"></a></p>
-<h3 id="CVS泄露"><a href="#CVS泄露" class="headerlink" title="CVS泄露"></a>CVS泄露</h3><p><img src="51.png" alt><br><a name="qKKIE"></a></p>
-<h3 id="Bazaar-bzr泄露"><a href="#Bazaar-bzr泄露" class="headerlink" title="Bazaar/bzr泄露"></a>Bazaar/bzr泄露</h3><p><img src="/52.png" alt></p>
-<h3 id="网站备份压缩文件"><a href="#网站备份压缩文件" class="headerlink" title="网站备份压缩文件"></a>网站备份压缩文件</h3><p><img src="53.png" alt></p>
-<p>地址：<a href="https://github.com/foryujian" target="_blank" rel="noopener">https://github.com/foryujian</a><br><a name="mKMIx"></a></p>
-<h3 id="WEB-INF-web-xml泄露"><a href="#WEB-INF-web-xml泄露" class="headerlink" title="WEB-INF/web.xml泄露"></a>WEB-INF/web.xml泄露</h3><p><img src="54.png" alt><br><a name="7rzEV"></a></p>
-<h3 id="DS-Store文件泄露"><a href="#DS-Store文件泄露" class="headerlink" title="DS_Store文件泄露"></a>DS_Store文件泄露</h3><p><img src="55.png" alt><br>安装及使用：<br></p>
-<p><img src="56.png" alt></p>
-<p><a name="VSMSA"></a></p>
-<h3 id="SWP文件泄露"><a href="#SWP文件泄露" class="headerlink" title="SWP文件泄露"></a>SWP文件泄露</h3><p><img src="57.png" alt><br><a name="Kchb4"></a></p>
-<h3 id="github源码泄露"><a href="#github源码泄露" class="headerlink" title="github源码泄露"></a>github源码泄露</h3><p><img src="58.png" alt><br><a name="6ORki"></a></p>
-<h4 id="dumpall"><a href="#dumpall" class="headerlink" title="dumpall"></a>dumpall</h4><p>地址：<a href="https://github.com/0xHJK/dumpall" target="_blank" rel="noopener">https://github.com/0xHJK/dumpall</a><br>安装：<br></p>
-<p><img src="59.png" alt></p>
-<p><br>使用：<br></p>
-<p><img src="60.png" alt></p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
+                <blockquote>
+</blockquote>
+<h1 id="一-内网渗透基础"><a href="#一-内网渗透基础" class="headerlink" title="一:内网渗透基础"></a>一:内网渗透基础</h1><blockquote>
+<p>内网也是指计算机网络中根据地理范围划分中的局域网(Local Area Network)，即<code>内网等同于局域网</code>  。</p>
+<p>内网渗透又叫做后渗透，区别于前渗透的WEB渗透，内网渗透是指从获取WEB服务器的shell之后到拿下内网全部主机的过程叫做内网渗透。</p>
+</blockquote>
+<ul>
+<li><p>什么是计算机网络？</p>
+<p>计算机网络是将地理位置不同的具有独立功能的多台计算机及其外部设备，通过通信线路连接，在网络操作系统，网络管理软件及网络通信协议管理和协调下，实现资源共享和信息传递的计算机系统。</p>
+</li>
+</ul>
+<h3 id="1-工作组"><a href="#1-工作组" class="headerlink" title="1:工作组"></a>1:工作组</h3><blockquote>
+<p>工作组（Work Group）：将不同的计算机按照功能或部门分别列入到不同的工作组中。</p>
+</blockquote>
+<ul>
+<li>默认工作组：<code>WORKGROUP</code></li>
+<li>加入工作组时，如果名称不存在就相当于新建了一个工作组</li>
+<li>工作组没有集中管理的作用，在工作组里的所有计算机都是平等的没有服务器和客户机之分</li>
+</ul>
+<p><img src="https://s3.ax1x.com/2021/03/19/6RxnfI.png" alt></p>
+<h3 id="2-域"><a href="#2-域" class="headerlink" title="2:域"></a>2:域</h3><blockquote>
+<p>需求:希望某台计算机的账户可以访问每台计算机的资源或者在每台计算机上进行登录！</p>
+</blockquote>
+<ul>
+<li><code>域</code>:(Domain)是一个有安全边界的计算机集合。（安全边界：在两个域环境中一个域的用户无法访问另一个域中的资源）</li>
+<li><code>域</code>:与工作组相比，域的安全管理控制机制更加严格。</li>
+<li><code>域控制器</code>:(Domain Controller,DC)是域中的一台类似于管理服务器的计算机，类似于单位的门禁系统，负责所有连入的计算机和用户的验证工作。</li>
+<li><code>域控制器</code>:存在由这个域的账户.密码.属于这个域的计算机等信息构成的数据库–&gt;<code>活动目录</code>。</li>
+<li><code>域控制器</code>:是整个域的通信枢纽，所有的权限身份验证都在域控制器上进行；简单来说域内所有用来验证身份的账号和密码散列值都保存在域控制器当中–&gt;<code>活动目录</code>。</li>
+</ul>
+<h4 id="2-1域环境分类"><a href="#2-1域环境分类" class="headerlink" title="2.1域环境分类"></a>2.1域环境分类</h4><ol>
+<li><p><code>单域</code>：一个有安全边界的计算机集合，单域内至少两台域服务器，一台作为DC另一台作为备份DC，活动目录的数据库(域用户/计算机/网络设备)是存储在AD中的，没有备份AD一旦瘫痪，域内其他用户就不能登录该域。</p>
+</li>
+<li><p><code>父域子域</code>：第一个域称为父域，各分部的域称为该域名的子域。</p>
+<p>例1：把不同地点的分公司放在同一个域内，那么主机之间的信息交互花费时间就比较长，占用宽带就比较大。</p>
+<p>例2：公司某部门希望使用特定的安全策略(账号密码策略)，就可以将部门作为子域来单独管理。</p>
+</li>
+<li><p><code>域树</code>：多个域通过建立信任关系组成的集合。</p>
+<ul>
+<li>两个域之间相互访问，需要建立信任关系；</li>
+<li>在一个域树种，父域可以包含多个子域；</li>
+<li>一个.代表一个层次，放在最后的子域称之为一级域，前面的子域称之为二级域；</li>
+<li>子域只能使用父域的名字作为其域名的后缀；</li>
+</ul>
+<p><img src="https://z3.ax1x.com/2021/03/23/673R4x.png" alt></p>
+</li>
+<li><p><code>域森林</code>：多个域树通过建立信任关系组成的集合。</p>
+<p><img src="https://z3.ax1x.com/2021/03/23/673oKe.png" alt></p>
+</li>
+<li><p><code>域名服务器</code>:DNS(Domain Name Server)是指用于实现域名和IP地址解析的服务器，分为正向解析与反向解析。</p>
+<ul>
+<li>正向解析：域名–&gt;IP地址</li>
+<li>反向解析：IP地址–&gt;域名</li>
+<li>域内计算机使用DNS来定位域控制器/服务器/其他计算机，所以域名==&gt;DNS域的名字</li>
+<li><strong>在内网渗透中，通过寻找DNS服务器来确定域控制器的位置</strong>：DNS服务器和域控制器通常配置在同一台机器上！！！</li>
+</ul>
+</li>
+</ol>
+<h3 id="3-活动目录"><a href="#3-活动目录" class="headerlink" title="3:活动目录"></a>3:活动目录</h3><blockquote>
+<p>Active Directory(AD)是指域环境中提供目录服务的组件，目录用于存储有关网络对象(用户/组/计算机/共享资源/打印机/联系人)的信息。</p>
+</blockquote>
+<h4 id="3-1活动目录功能"><a href="#3-1活动目录功能" class="headerlink" title="3.1活动目录功能"></a>3.1活动目录功能</h4><ul>
+<li>账号集中管理：所有账号存储在服务器中，以便执行命令和重置密码；</li>
+<li>软件集中管理：统一推送软件(软件安装)，安装网络打印机(硬件设备)；</li>
+<li>环境集中管理：统一客户端界面(统一桌面不知)/IE(安全性策略)/…等设置；</li>
+<li>增强安全性：统一部署杀毒软件和病毒扫描任务/集中管理用户的计算机权限/统一制定用户密码策略等；</li>
+<li>更可靠，更短的宕机时间：利用活动目录控制用户方位权限</li>
+<li><strong>活动目录是微软提供的统一管理平台，ISA/Exchange/SMS等都依赖这个平台</strong></li>
+</ul>
+<h3 id="4-域控和活动目录区别"><a href="#4-域控和活动目录区别" class="headerlink" title="4:域控和活动目录区别"></a>4:域控和活动目录区别</h3><p><code>活动目录：</code>将计算机/用户/用户组/打印机/共享文件/等分别分类存放在数据库中，以便查找，管理和使用这些资源。那么拥有这个层次结构的数据库就是活动目录数据库，简称AD库。</p>
+<p><code>域控：</code>安装了AD库就变成了域控(用于存储活动目录的数据库的计算机)。</p>
+<h3 id="5-安全域的划分"><a href="#5-安全域的划分" class="headerlink" title="5:安全域的划分"></a>5:安全域的划分</h3><blockquote>
+<p>划分安全域的目的是将一组安全等级相同的计算机划入同一网段。</p>
+</blockquote>
+<p><img src="https://z3.ax1x.com/2021/03/22/6oWgSO.png" alt></p>
+<p>路由器连接的内网中可以划分三个区域：</p>
+<p>1:<strong>安全级别最高的内网</strong></p>
+<p>2:<strong>安全级别中等的DMZ区域</strong></p>
+<p>3:<strong>安全级别最低的外网</strong></p>
+<p>三个区域负责完成不同的任务，因此需要设置不同的的网络访问策略，当有DMZ区域时我们应定义如下的访问控制策略，以实现屏障保护的功能：</p>
+<ul>
+<li>内网可以访问外网：满足内网用户上网查阅资料办公的需求；</li>
+<li>内网可以访问DMZ：是管理者可以管理DMZ区域当中的服务器设备；</li>
+<li>外网不能访问内网：内网存储公司重要资料，可以使用VPN来访问；</li>
+<li>外网可以访问DMZ：DMZ区域中的服务器对外界提供服务，需要由防火墙来完成对外地址到服务器实际地址的转换；</li>
+<li>DMZ不能访问内网：当服务器沦陷保护内网主机不受入侵；</li>
+<li>DMZ不能访问外网：限制入侵黑客的通信隧道，邮件服务器除外；</li>
+</ul>
+<p><strong>补充</strong></p>
+<ol>
+<li><p>内网分为<code>办公区</code>和<code>核心区</code></p>
+</li>
+<li><p>进入内网的攻击手法：<code>鱼叉攻击；水坑攻击；社会工程学</code></p>
+</li>
+</ol>
+<h3 id="6-域内计算机分类"><a href="#6-域内计算机分类" class="headerlink" title="6:域内计算机分类"></a>6:域内计算机分类</h3><blockquote>
+<p>工作组环境内计算机之间身份是平等的没有服务器和客户机之分，而在域环境下的网络中，则有<code>域控制器；成员服务器；客户机；独立服务器</code>之分。</p>
+</blockquote>
+<ul>
+<li>域控制器：用于管理所有的网络访问，包括登录服务器，访问共享目录及资源</li>
+<li>成员服务器：安全了服务器系统并加入了域，主要任务是提供服务</li>
+<li>客户机：安装了个人系统的计算机并加入了域</li>
+<li>独立服务器：能够对外提供服务但是没有加入域</li>
+</ul>
+<h3 id="7-域内权限"><a href="#7-域内权限" class="headerlink" title="7:域内权限"></a>7:域内权限</h3><blockquote>
+<p>组是用户账号的集合，通过组可以更好的管理用的权限；域环境下有<code>本地组；全局组；通用组</code>。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>组类型</th>
+<th>主要作用</th>
+<th>嵌套关系</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>本地组</td>
+<td>授予本地域内资源的访问权限</td>
+<td>本地组不能嵌套在其他组中</td>
+</tr>
+<tr>
+<td>全局组</td>
+<td>实现单域用户访问多域资源</td>
+<td>全局组可以嵌套在其他组中</td>
+</tr>
+<tr>
+<td>通用组</td>
+<td>实现域森林的跨域访问资源</td>
+<td>通用组成员可以来自域森林中的任何域的用户/全局组和其他通用组</td>
+</tr>
+</tbody></table>
+<p><strong>知识点：</strong>域本地组来自全林，作用于本域；全局组来自本域，作用于全林；通用组来自全林，作用于全林；</p>
+<h4 id="7-1A-G-DL-P策略"><a href="#7-1A-G-DL-P策略" class="headerlink" title="7.1A-G-DL-P策略"></a>7.1A-G-DL-P策略</h4><blockquote>
+<p>A-G-DL-P策略是指将用户账号添加到全局组中，将全局组添加到与本地组中，然后为域本地组分配资源权限；</p>
+</blockquote>
+<ul>
+<li>A：用户账号（Account）</li>
+<li>G：全局组（Global Group）</li>
+<li>U：通用组（Univresal Group）</li>
+<li>DL：域本地组（Domain Local Group）</li>
+<li>p：资源权限（permssion）</li>
+</ul>
+<p>安装域控时，系统会自动生成一些组，为内置组；内置组定义了一些常用的权限–&gt;Builtin和Users组织单元的组就是内置组；</p>
+<ul>
+<li>内置的域本地组在<code>Builtin</code>组织单元中</li>
+<li>内置的全局组和通用组在<code>Users</code>组织单元中</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>域本地组</th>
+<th>权限</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>administrators</td>
+<td>管理员组，成员可以不受限制的的存取计算机和域内的资源</td>
+</tr>
+<tr>
+<td>Remote Desktop Users</td>
+<td>远程登录组，成员具有远程登录权限</td>
+</tr>
+<tr>
+<td>Account Operators</td>
+<td>账号操作员组，创建和管理域内用户和组，不能更改administrators和Domain Admins组账户</td>
+</tr>
+<tr>
+<td>Domain Admins</td>
+<td>域管理员组，成员在所有加入域的服务器/域控和AD中均默认拥有完整的管理员权限，用户称为域系统管理员可加入</td>
+</tr>
+<tr>
+<td>Domain Users</td>
+<td>域用户组，默认是内置域的User组的成员</td>
+</tr>
+</tbody></table>
+<h1 id="二-内网环境搭建"><a href="#二-内网环境搭建" class="headerlink" title="二:内网环境搭建"></a>二:内网环境搭建</h1><blockquote>
+<p>通常所说的内网渗透测试很大程度上就是域渗透测试</p>
+</blockquote>
+<h4 id="1-网络拓扑"><a href="#1-网络拓扑" class="headerlink" title="1:网络拓扑"></a>1:网络拓扑</h4><table>
+<thead>
+<tr>
+<th>操作系统</th>
+<th>安装服务</th>
+<th>计算机名</th>
+<th>IP地址</th>
+<th>DNS服务器地址</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Windows server 2012 R2</td>
+<td>AD/DC</td>
+<td>DC</td>
+<td>192.168.1.1</td>
+<td>192.168.1.1</td>
+</tr>
+<tr>
+<td>Windows server 2008 R2</td>
+<td>加入域</td>
+<td>WEB</td>
+<td>192.168.1.2</td>
+<td>192.168.1.1</td>
+</tr>
+<tr>
+<td>Windows 7</td>
+<td>加入域</td>
+<td>WIN7</td>
+<td>192.168.1.3</td>
+<td>192.168.1.1</td>
+</tr>
+</tbody></table>
+<h4 id="2-搭建步骤"><a href="#2-搭建步骤" class="headerlink" title="2:搭建步骤"></a>2:搭建步骤</h4><p><strong>Windows server 2012R2操作流程</strong></p>
+<p>更改IP地址–&gt;更改计算机名–&gt;安装域控和DNS服务–&gt;升级服务器–&gt;创建AD域–&gt;创建用户</p>
+<p><strong>windows server 2008R2操作流程</strong></p>
+<p>更改IP地址与DNS服务器地址–&gt;更改计算机名–&gt;加入域</p>
+<p><strong>windows7操作流程</strong></p>
+<p>更改IP地址与DNS服务器地址–&gt;更改计算机名–&gt;加入域</p>
+<p><strong>&gt;&gt;&gt;</strong>详细操作请看:<a href>域环境搭建</a><strong>&lt;&lt;&lt;</strong></p>
+<h1 id="三-其他环境搭建"><a href="#三-其他环境搭建" class="headerlink" title="三:其他环境搭建"></a>三:其他环境搭建</h1><blockquote>
+<p>搭建具有漏洞的环境，更好的模拟内网入侵的过程</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>漏洞靶场</th>
+<th>环境描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Metasploit2</td>
+<td>一个Ubuntu Linux的虚拟机，内置了常见的漏洞其默认的用户名和密码都是msfadmin；</td>
+</tr>
+<tr>
+<td>Metasploit3</td>
+<td>Metasploit3的升级版，默认密码还是msfadmin</td>
+</tr>
+<tr>
+<td>OWASPBWA</td>
+<td>一款基于虚拟机的渗透测试工具，提供一个存在大量漏洞的网站应用程序环境</td>
+</tr>
+<tr>
+<td>DVWA</td>
+<td>显而易见这是个WEB漏洞靶场….</td>
+</tr>
+</tbody></table>
+<p>内网渗透靶场推荐：</p>
+<ul>
+<li><a href="http://vulnstack.qiyuanxuetang.net/vuln/" target="_blank" rel="noopener">红日靶场</a></li>
+<li><a href="https://www.anquanke.com/post/id/187908" target="_blank" rel="noopener">CFS三层靶机</a></li>
+<li><a href="http://www.yongyindai.com/plus/view.php?aid=62" target="_blank" rel="noopener">Social Network</a></li>
+<li>…</li>
+</ul>
+<h1 id="四-内网渗透工具"><a href="#四-内网渗透工具" class="headerlink" title="四:内网渗透工具"></a>四:内网渗透工具</h1><blockquote>
+<p><strong>掌握渗透测试的方法和思路</strong></p>
+</blockquote>
+<h3 id="1-windows平台常用工具"><a href="#1-windows平台常用工具" class="headerlink" title="1:windows平台常用工具"></a>1:windows平台常用工具</h3><table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>介绍描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Nmap</td>
+<td>免费的网络发现和安全审计工具，用于发现主机，端口扫描，识别服务，识别操作系统等</td>
+</tr>
+<tr>
+<td>Wireshark</td>
+<td>免费开源的网络协议和数据包分析器，将网络接口设置为混杂模式能够监控整个网络的流量</td>
+</tr>
+<tr>
+<td>PUTTY</td>
+<td>免费开源的SSH和Telnet客户端，主要用于远程访问</td>
+</tr>
+<tr>
+<td>Sqlmap</td>
+<td>免费开源，主要用来对WEB应用程序进行SQL注入攻击测试，只是不同数据库</td>
+</tr>
+<tr>
+<td>Burpsuite</td>
+<td>(音译：boposwt)主要用于对WEB应用程序进行安全测试的集成平台</td>
+</tr>
+<tr>
+<td>Hydra</td>
+<td>网络登录的破解工具，支持多种协议</td>
+</tr>
+<tr>
+<td>Getif</td>
+<td>基于windows的免费图形界面工具，用于收集SNMP设备的信息</td>
+</tr>
+<tr>
+<td>Cain&amp;Able</td>
+<td>强有力的嗅探工具与密码破解</td>
+</tr>
+<tr>
+<td>PowerSploit</td>
+<td>基于PowerShell的后渗透框架,包含很多PowerShell攻击脚本,主要用于信息侦查,权限提升,权限维持</td>
+</tr>
+<tr>
+<td>Nishang</td>
+<td>Powershell脚本和有效载荷的框架的集合</td>
+</tr>
+</tbody></table>
+<h3 id="2-Kali-Linux平台常用工具"><a href="#2-Kali-Linux平台常用工具" class="headerlink" title="2:Kali Linux平台常用工具"></a>2:Kali Linux平台常用工具</h3><table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>介绍描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>WCE</td>
+<td>Windows凭据管理器，列出登录会话，添加/修改/列出/删除关联凭据（LM HASH/NTML HASH/明文密码/Kerberos票据）</td>
+</tr>
+<tr>
+<td>Mimikatz</td>
+<td>用于从内存中获取明文密码，现金票据和秘钥等</td>
+</tr>
+<tr>
+<td>Responder</td>
+<td>嗅探网络内所有LLMNR包和获取各主机的信息</td>
+</tr>
+<tr>
+<td>Beff</td>
+<td>一款针对浏览器的渗透测试工具</td>
+</tr>
+<tr>
+<td>DSHashes</td>
+<td>从NTDSXtract中提取用于易于理解的散列值</td>
+</tr>
+<tr>
+<td>Powersploit</td>
+<td>基于PowerShell的后渗透框架,包含很多PowerShell攻击脚本,主要用于信息侦查,权限提升,权限维持</td>
+</tr>
+<tr>
+<td>Nishang</td>
+<td>针对Powershell的渗透测试工具，集成了框架，脚本和各种payload</td>
+</tr>
+<tr>
+<td>Empire</td>
+<td>内网渗透利器，跨平台，有丰富的模块和接口，用于可自行添加模块和功能</td>
+</tr>
+<tr>
+<td>ps_encoder.py</td>
+<td>使用base64编码封装的powershell命令包，目的是混淆和压缩代码</td>
+</tr>
+<tr>
+<td>smbexec</td>
+<td>使用Samba工具的快速psexec类工具</td>
+</tr>
+<tr>
+<td>Veil</td>
+<td>生成绕过常见的防病毒解决方案的Metasploit有效载荷</td>
+</tr>
+<tr>
+<td>Metasploit</td>
+<td>漏洞攻击平台/5大框架：exploit/auxiliary/payload/post/encoder</td>
+</tr>
+<tr>
+<td>CobaltStrike</td>
+<td>优秀的后渗透测试平台，主要用于内网渗透适合团队间协同工作</td>
+</tr>
+</tbody></table>
 
             </div>
             <hr />
@@ -768,9 +968,9 @@ ips<span class="token operator">=</span>get_ips<span class="token punctuation">(
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《信息收集》
+                    《内网渗透基础及环境搭建》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2021/08/10/zi-chan-xin-xi-shou-ji-1/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2021/09/21/nei-wang-shen-tou-ji-chu-ji-huan-jing-da-jian/" property="cc:attributionName"
                rel="cc:attributionURL">
                 XYZ
             </a> 采用
@@ -811,7 +1011,7 @@ ips<span class="token operator">=</span>get_ips<span class="token punctuation">(
         repo: 'maoxdon.github.io',
         owner: 'maoxdon',
         admin: "maoxdon",
-        id: '2021/08/10/zi-chan-xin-xi-shou-ji-1/',
+        id: '2021/09/21/nei-wang-shen-tou-ji-chu-ji-huan-jing-da-jian/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1098,60 +1298,7 @@ ips<span class="token operator">=</span>get_ips<span class="token punctuation">(
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/09/21/nei-wang-shen-tou-ji-chu-ji-huan-jing-da-jian/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="内网渗透基础及环境搭建">
-                        
-                        <span class="card-title">内网渗透基础及环境搭建</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-
-一:内网渗透基础
-内网也是指计算机网络中根据地理范围划分中的局域网(Local Area Network)，即内网等同于局域网  。
-内网渗透又叫做后渗透，区别于前渗透的WEB渗透，内网渗透是指从获取WEB服务器的shell之后到拿下内
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2021-09-21
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/信息收集、内网/" class="post-category" target="_blank">
-                                    信息收集、内网
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/信息收集、内网、基础知识、环境搭建/" target="_blank">
-                        <span class="chip bg-color">信息收集、内网、基础知识、环境搭建</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/08/08/di-yi-tian-metasploit/">
+                <a href="/2021/10/17/zhong-hua-ren-min-gong-he-guo-wang-luo-an-quan-fa/">
                     <div class="card-image">
                         
                         
@@ -1163,25 +1310,75 @@ ips<span class="token operator">=</span>get_ips<span class="token punctuation">(
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            title: 中华人民共和国网络安全法top: falsecover: falsetoc: truemathjax: truedate: 2021-08-08 09:30:25password:summary:tags:
 
-
-一：初识Metasploit
-“如果我有八个小时的时间砍树，我会花六个小时磨斧头。”-亚伯拉罕·林肯
-
-
-
-Metasploit是The Metasploit Framework的简称,也可以叫做MSF! MSF高度模块化即框架由多个
+categori
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-08-08
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2021-10-17
+                        </span>
                         <span class="publish-author">
                             
                         </span>
                     </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/08/10/zi-chan-xin-xi-shou-ji-1/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="信息收集">
+                        
+                        <span class="card-title">信息收集</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            资产信息收集
+流程图
+简介：
+分类
+什么是资产
+重要性
+域名备案信息通过查询备案信息，可以获取该企业的一些基本信息：网站地址，网站域名等
+工信部网站备案查询https://beian.miit.gov.cn/#/Integrated/ind
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-08-10
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/信息获取/" class="post-category" target="_blank">
+                                    信息获取
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/信息收集/" target="_blank">
+                        <span class="chip bg-color">信息收集</span>
+                    </a>
+                    
                 </div>
                 
             </div>
